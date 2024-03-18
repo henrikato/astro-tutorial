@@ -1,7 +1,3 @@
 {
-  "recommendations": [
-    "astro-build.astro-vscode",
-    "arcanis.vscode-zipfs"
-  ],
-  "unwantedRecommendations": []
+  "recommendations": ["astro-build.astro-vscode"]
 }
