@@ -1,8 +1,9 @@
 ---
-import { MarkdownInstance } from "astro";
+import { type MarkdownInstance } from "astro";
+import { type FrontmatterProps } from "../../types/frontmatter";
+
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import BlogPost from "../../components/BlogPost.astro";
-import { FrontmatterProps } from "../../types/frontmatter";
 
 export async function getStaticPaths() {
   const allPosts: MarkdownInstance<FrontmatterProps>[] =
